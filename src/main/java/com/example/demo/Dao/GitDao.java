@@ -20,15 +20,11 @@ import org.eclipse.jgit.api.errors.NoHeadException;
 import org.eclipse.jgit.api.errors.NotMergedException;
 import org.eclipse.jgit.api.errors.TransportException;
 import org.eclipse.jgit.lib.Ref;
-import org.eclipse.jgit.revwalk.RevCommit;
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 import org.eclipse.jgit.transport.CredentialsProvider;
 import org.eclipse.jgit.transport.RefSpec;
 import org.eclipse.jgit.transport.UsernamePasswordCredentialsProvider;
 import org.springframework.stereotype.Repository;
-import org.eclipse.swt.SWT;
-import org.eclipse.swt.widgets.Table;
-import org.eclipse.swt.widgets.TableItem;
 
 
 @Repository
